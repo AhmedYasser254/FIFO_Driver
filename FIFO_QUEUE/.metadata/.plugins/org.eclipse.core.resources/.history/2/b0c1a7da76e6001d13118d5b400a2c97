@@ -1,0 +1,28 @@
+/**********************
+ * file name: fifo.h
+ *
+ *  Created on: Apr 29, 2023
+ *
+ *  Author: Ahmed Yasser
+ ***********************/
+
+#ifndef FIFO_H_
+#define FIFO_H_
+#include "stdio.h"
+#include "stdint.h"
+
+
+//User Configuration
+/*the first thing select the element width or element type
+ * (uint8_t, uint26_t, uint32_t,.....)
+ */
+#define ELEMENT_TYPE uint8_t
+
+
+//Create buffer
+#define width 5
+ELEMENT_TYPE buff [width];
+
+
+
+#endif /* FIFO_H_ */

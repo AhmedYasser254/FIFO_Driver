@@ -1,0 +1,130 @@
+12:52:40 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -o FIFO.exe fifo.o main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: main.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: multiple definition of `uart_buffer'; fifo.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:55:14 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -o FIFO.exe fifo.o main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: main.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: multiple definition of `uart_buffer'; fifo.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:56:42 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:25: warning: unused variable 'temp' [-Wunused-variable]
+   15 |         ELEMENT_TYPE i, temp;
+      |                         ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: main.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: multiple definition of `uart_buffer'; fifo.o:D:\Kerolos Diploma\Data Structures\FIFO_QUEUE\FIFO\Debug/../fifo.h:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:57:00 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:25: warning: unused variable 'temp' [-Wunused-variable]
+   15 |         ELEMENT_TYPE i, temp;
+      |                         ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fifo.o "..\\fifo.c" 
+..\fifo.c: In function 'FIFO_init':
+..\fifo.c:14:13: warning: statement with no effect [-Wunused-value]
+   14 |         fifo->head;
+      |         ~~~~^~~~~~
+..\fifo.c: In function 'FIFO_dequeue':
+..\fifo.c:50:15: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   50 |         *item = fifo->tail;
+      |               ^
+gcc -o FIFO.exe fifo.o main.o 
+12:57:21 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fifo.o "..\\fifo.c" 
+..\fifo.c: In function 'FIFO_dequeue':
+..\fifo.c:50:15: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   50 |         *item = fifo->tail;
+      |               ^
+gcc -o FIFO.exe fifo.o main.o 
+12:57:40 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fifo.o "..\\fifo.c" 
+..\fifo.c: In function 'FIFO_dequeue':
+..\fifo.c:50:15: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   50 |         *item = (ELEMENT_TYPE*)fifo->tail;
+      |               ^
+gcc -o FIFO.exe fifo.o main.o 
+Info: Nothing to build for FIFO
+12:58:17 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fifo.o "..\\fifo.c" 
+..\fifo.c: In function 'FIFO_dequeue':
+..\fifo.c:50:15: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   50 |         *item = fifo->tail;
+      |               ^
+gcc -o FIFO.exe fifo.o main.o 
+13:02:42 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:03:27 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:03:59 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:04:33 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:05:13 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:05:27 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:25: warning: unused variable 'temp' [-Wunused-variable]
+   15 |         ELEMENT_TYPE i, temp=0;
+      |                         ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:07:05 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+13:08:47 **** Incremental Build of configuration Debug for project FIFO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fifo.o "..\\fifo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void main()
+      |      ^~~~
+gcc -o FIFO.exe fifo.o main.o 
+Info: Nothing to build for FIFO

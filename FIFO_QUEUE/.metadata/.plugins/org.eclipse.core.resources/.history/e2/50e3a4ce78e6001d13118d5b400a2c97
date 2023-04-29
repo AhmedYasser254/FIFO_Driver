@@ -1,0 +1,21 @@
+/*
+ * fifo.c
+ *
+ *  Created on: Apr 29, 2023
+ *      Author: Ahmed Yasser
+ */
+#include "fifo.h"
+
+FIFO_Buf_t_status FIFO_init	(FIFO_Buf_t* fifo, ELEMENT_TYPE* buf, uint32_t length);
+{
+if(buf == NULL)
+{
+	return FI
+}
+}
+FIFO_Buf_t_status FIFO_enqueue(FIFO_Buf_t* fifo, ELEMENT_TYPE item);
+FIFO_Buf_t_status FIFO_dequeue(FIFO_Buf_t* fifo, ELEMENT_TYPE* item);
+FIFO_Buf_t_status FIFO_IS_FULL(FIFO_Buf_t* fifo);
+void FIFO_print(FIFO_Buf_t* fifo);
+
+
